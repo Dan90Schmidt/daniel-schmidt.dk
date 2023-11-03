@@ -94,7 +94,7 @@ li {
 }
 
 @media screen and (max-width: 700px) {
-	.menu~box {
+	.menu-box {
 		display: flex;
 	}
 	.menu {
@@ -116,7 +116,7 @@ li {
 		transition: height 400ms;
 	}
 	
-	#activate ~ .menu li {
+	#activate:checked ~ .menu li {
 		border: 1px solid white;
 		height: 40px;
 		padding: 5px;
