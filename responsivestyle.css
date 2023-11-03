@@ -134,5 +134,23 @@ li {
 	}
 }
 
+.black-box {
+    width: 2000px;
+    height: 100px;
+    background-color: black;
+    resize: none; /* Forhindrer ændring af størrelse */
+  }
+
+.centered-text  {
+	align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-0%);
+	font-size: 25px;
+	padding-top: 100px;
+	text-decoration: underline;
+	font-weight: bold;
+  }
 
 
