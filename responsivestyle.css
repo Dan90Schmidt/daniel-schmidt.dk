@@ -143,14 +143,32 @@ li {
 
 .centered-text  {
 	align-items: center;
-    position: absolute;
+	position: absolute;
     left: 10%;
     top: 50%;
     transform: translate(-0%);
 	font-size: 25px;
-	padding-top: 100px;
+	padding-top: 10px;
 	text-decoration: underline;
 	font-weight: bold;
   }
+
+.right-image {
+    position: absolute;
+	align-items: flex;
+	align-items: right;
+	padding-top: 60;
+    right: -10%;
+    top: 65%;
+    transform: translateY(-50%);
+	
+  }
+
+.right-image img {
+    width: 600px; 
+    height: auto; 
+  }
+
+
 
 
