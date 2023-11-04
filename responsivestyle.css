@@ -13,7 +13,10 @@ body {
 } 
 
 img {
-	height: 100px
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 5px;
 }
 
 .top-bar {
@@ -31,6 +34,7 @@ img {
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
+	margin-right: -500px;
 }
 
 li {
@@ -144,7 +148,7 @@ li {
 .centered-text  {
 	align-items: center;
 	position: absolute;
-    left: 10%;
+    left: 30%;
     top: 50%;
     transform: translate(-0%);
 	font-size: 25px;
@@ -158,8 +162,8 @@ li {
 	align-items: flex;
 	align-items: right;
 	padding-top: 60;
-    right: -10%;
-    top: 65%;
+    right: 35%;
+    top: 30%;
     transform: translateY(-50%);
 	
   }
@@ -170,36 +174,63 @@ li {
   } 
 
 
- body {
+body {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     min-height: 100vh;
   }
 
   .container {
-    flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
-    padding: 20px;
+	padding: 40px;  
+    flex: 1;
   }
 
   .orange-box {
-    width: 180px;
-    height: 110px;
+    width: 170px;
+    height: 100px;
     background-color: #EE721E;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
   }
 
   .box-text {
     font-size: 18px;
     color: white;
-	text-align: center;
+    text-align: center;
   }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+.text {
+  font-size: 40px;
+  font-weight: bold;	
+  position: absolute;
+  right: 20px;
+  top: 300px;
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+
+
+
+
 
 
 
