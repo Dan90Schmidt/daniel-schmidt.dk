@@ -138,7 +138,7 @@ li {
     width: 2000px;
     height: 100px;
     background-color: black;
-    resize: none; /* Forhindrer ændring af størrelse */
+    resize: none; 
   }
 
 .centered-text  {
@@ -169,6 +169,37 @@ li {
     height: auto; 
   } 
 
+
+ body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+  }
+
+  .orange-box {
+    width: 180px;
+    height: 110px;
+    background-color: #EE721E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-text {
+    font-size: 18px;
+    color: white;
+	text-align: center;
+  }
 
 
 
