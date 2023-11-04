@@ -199,7 +199,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
   }
 
   .box-text {
@@ -227,8 +227,21 @@ body {
   transform: translateX(-50%); 
 }
 
+footer {
+    background-color: black;
+    color: white !important;
+    padding: 10px;
+    text-align: center;
+	height: 3%;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+}
 
-
+.footer-text {
+    display: inline-block;
+    margin: 0 10px;
+}
 
 
 
