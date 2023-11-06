@@ -179,7 +179,7 @@ li {
   }
 
 
-.text {
+.textme {
   font-size: 40px;
   font-weight: bold;	
   position: absolute;
@@ -189,7 +189,7 @@ li {
   transform: translateX(-50%); 
 }
 
-.centered-text {
+.centered-text1 {
   font-size: 20px;
   font-weight: bold;	
   position: absolute;
@@ -251,7 +251,7 @@ footer {
 	
   }
 
-.centered-text {
+.centered-text2 {
   font-size: 50px;
   font-weight: bold;	
   position: absolute;
@@ -303,3 +303,28 @@ footer {
   color: white;
 }
 
+.kompetencer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kompetencer-image {
+    width: 450px; 
+    height: auto;
+	margin-left: 150px;
+	margin-top: 220px;
+}
+
+.kompetencer2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kompetencer2-image {
+    width: 450px; 
+    height: auto;
+	margin-left: 850px;
+	margin-top: 220px;
+}
