@@ -146,33 +146,6 @@ li {
     resize: none; 
   }
 
-.centered-text  {
-	align-items: center;
-	position: absolute;
-    left: 30%;
-    top: 50%;
-    transform: translate(-0%);
-	font-size: 25px;
-	padding-top: 10px;
-	text-decoration: underline;
-	font-weight: bold;
-  }
-
-.right-image {
-    position: absolute;
-	align-items: flex;
-	align-items: right;
-	padding-top: 60;
-    right: 35%;
-    top: 30%;
-    transform: translateY(-50%);
-	
-  }
-
-.right-image img {
-    width: 600px; 
-    height: auto; 
-  } 
 
   .container {
     display: flex;
@@ -210,6 +183,7 @@ li {
   transform: translateX(-50%); 
 }
 
+
 footer {
     background-color: black;
     color: white !important;
@@ -242,5 +216,26 @@ footer {
   height: 100vh;
 
 }
+
+  
+
+.container {
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;  
+  }
+
+  .orange-box {
+    width: 180px;
+    height: 150px;
+    background-color: #EE721E;
+    align-items: center;
+    margin: 10px; 
+    color: white;
+	
+  }
+
+
+
 
 
