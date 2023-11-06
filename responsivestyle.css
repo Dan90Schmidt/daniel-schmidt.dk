@@ -101,6 +101,7 @@ li {
 	.menu-box {
 		display: flex;
 	}
+	
 	.menu {
 		position: absolute;
 		top: 0;
@@ -112,6 +113,7 @@ li {
 		align-items: center;
 		
 	}
+	
 	#activate ~ .menu li {
 		height: 0;
 		margin: 0;
@@ -135,8 +137,8 @@ li {
 		width: 100%;
 		background: #2C353B;
 			
+			}
 	}
-}
 
 .black-box {
     width: 2000px;
@@ -173,17 +175,6 @@ li {
     height: auto; 
   } 
 
-
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 100vh;
-  }
-
   .container {
     display: flex;
     justify-content: center;
@@ -208,14 +199,6 @@ body {
     text-align: center;
   }
 
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  height: 100vh;
-}
 
 .text {
   font-size: 40px;
