@@ -328,3 +328,30 @@ footer {
 	margin-left: 850px;
 	margin-top: 220px;
 }
+
+.container-cases {
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh; 
+}
+
+.cases {
+    width: 480px;
+    height: 350px;
+    background-color: #EE721E;
+    align-items: flex-start;
+    margin: 10px; 
+    color: white;
+	top: 10px;
+	margin-left: 500px;
+	margin-top: -700px;
+	margin-right: 100px;
+}
+
+.cases-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 155px;
+}
