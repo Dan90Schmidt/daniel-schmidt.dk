@@ -36,9 +36,10 @@ img {
 	list-style-type: none;
 }
 
-li {
+a {
 	padding: 15px;
 	overflow: hidden;
+	text-decoration: none;
 }
 
 .menu-box {
@@ -113,7 +114,7 @@ li {
 		
 	}
 	
-	#activate ~ .menu li {
+	#activate ~ .menu a {
 		height: 0;
 		margin: 0;
 		padding: 0;
@@ -121,14 +122,14 @@ li {
 		transition: height 400ms;
 	}
 	
-	#activate:checked ~ .menu li {
+	#activate:checked ~ .menu a {
 		border: 1px solid white;
 		height: 40px;
 		padding: 5px;
 		transition: height 400ms;
 	}
 	
-	.menu li {
+	.menu a {
 		display: flex;
 		justify-content: center;
 		margin: 0;
