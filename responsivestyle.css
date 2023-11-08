@@ -234,76 +234,6 @@ footer {
 
 }
 
-  
-
-.container-om {
-    justify-content: center;
-    height: 30vh;  
-	align-items: flex-start;
-  }
-
-  .om-box {
-    width: 180px;
-    height: 150px;
-    background-color: #EE721E;
-    align-items: center;
-    margin: 10px; 
-    color: white;
-	top: 10px;  
-	
-  }
-
-.centered-text2 {
-  font-size: 50px;
-  font-weight: bold;	
-  position: absolute;
-  right: 20px;
-  top: 300px;
-  left: 50%; 
-  transform: translate(-40%, -50%);
-  text-decoration: underline;
-}
-
-.hvem-text {
-  font-size: 35px;
-  font-weight: bold;	
-  position: absolute;
-  right: 20px;
-  top: 400px;
-  left: 80%; 
-  transform: translate(-40%, -50%);
-  text-decoration: underline;
-}
-
-.container-hvem {
-	justify-content: center;
-    height: 30vh;  
-	align-items: flex-start;
-}
-
-.hvem {
-    width: 480px;
-    height: 350px;
-    background-color: #EE721E;
-    align-items: flex-start;
-    margin: 10px; 
-    color: white;
-	top: 10px;
-	margin-left: 900px;
-	margin-top: -695px;
-	margin-right: -500px;
-}
-
-.indhold-text {
-  font-size: 20px;
-  font-weight: bold;	
-  position: absolute;
-  right: 20px;
-  top: 650px;
-  left: 80%; 
-  transform: translate(-40%, -50%);
-  color: white;
-}
 
 .kompetencer-container {
   display: flex;
@@ -402,6 +332,53 @@ button:hover {
 }
 
 
+.centered-text2 {
+  font-size: 50px;
+  font-weight: bold;	
+  position: absolute;
+  right: 20px;
+  top: 300px;
+  left: 50%; 
+  transform: translate(-40%, -50%);
+  text-decoration: underline;
+}
+
+.about-grid {
+    display: grid; 
+    grid-template-columns: 5% 40% 10% 40% 5%; 
+    margin-top: 150px;
+    margin-bottom: 75px; 
+}
+
+.about-flex {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.box1 {
+    color: white; 
+    background: #EE721E; 
+    width: 150px;
+    height: 50px; 
+    padding: 10% 5% 5% 5%; 
+    margin: 30px; 
+    text-align: center; 
+}
+
+.box2 {
+    color: white; 
+    background: #EE721E; 
+    width: 80%;
+    height: 200px; 
+    padding: 15% 5% 5% 5%;  
+    text-align: center; 
+}
+
+h1 {
+    padding: 15px 28%;  
+}
 
 
 
